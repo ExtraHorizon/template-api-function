@@ -8,7 +8,7 @@ export async function handler(requestObject: ApiFunctionRequestObject): Promise<
   /* Use the sdk to interact with Extra Horizon */
   console.log('User:', await sdk.users.me());
 
-  /* Print Received event */
+  /* Print Received request object */
   console.log('requestObject:', requestObject);
 
   const method = requestObject.requestContext.http.method;
