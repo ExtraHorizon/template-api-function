@@ -1,0 +1,7 @@
+{
+  "name": "projectname",
+  "description": "projectname task",
+  "path": "build",
+  "entryPoint": "index.handler",
+  "runtime": "nodejs14.x"
+}
