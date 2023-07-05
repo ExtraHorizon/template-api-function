@@ -1,4 +1,4 @@
-//  your testcode here
+//  your test code here
 
 describe('Test Suite', () => {
   describe('Test Scenario', () => {
