@@ -1,5 +1,8 @@
 // production code here
-import { ApiFunctionRequestObject, ApiFunctionResponseObject } from '@extrahorizon/javascript-sdk';
+import {
+  ApiFunctionRequestObject,
+  ApiFunctionResponseObject
+} from '@extrahorizon/javascript-sdk';
 import { authenticateSDK, sdk } from './services/sdk';
 
 export async function handler(requestObject: ApiFunctionRequestObject): Promise<ApiFunctionResponseObject> {
@@ -15,7 +18,6 @@ export async function handler(requestObject: ApiFunctionRequestObject): Promise<
 
   return {
     statusCode: 200,
-    // @ts-expect-error body is typed wrongly
     body: {
       hello: `The request method was: ${method}`
     }
