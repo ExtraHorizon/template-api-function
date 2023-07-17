@@ -308,10 +308,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@extrahorizon/javascript-sdk@v7.4.0":
-  version "7.4.0"
-  resolved "https://npm.pkg.github.com/download/@ExtraHorizon/javascript-sdk/7.4.0/e7ab90b85fef54f998cd8ea2a1cd5d8e67010e2a#e7ab90b85fef54f998cd8ea2a1cd5d8e67010e2a"
-  integrity sha512-JVlrz/NhZN7C2lmpVoWDCWzoROFaY7oITPVoAIWGW3pqp6EjmycViQZcxZCUGfTKiLFnfIDHCu++Va+t7QmyrA==
+"@extrahorizon/javascript-sdk@^7.4.1":
+  version "7.4.1"
+  resolved "https://npm.pkg.github.com/download/@ExtraHorizon/javascript-sdk/7.4.1/c7dc8986fd95f08b318a5c64dba303090cd66822#c7dc8986fd95f08b318a5c64dba303090cd66822"
+  integrity sha512-ePZSYgvgH+tMypXhFC8yxWiPiulS4TeTay+6BKEtNskfTW3qgiY+ukeYQ3xwdzEqm+3UWZLOmK3NUscfVXkJHg==
   dependencies:
     axios "^0.26.0"
     buffer "^6.0.3"
