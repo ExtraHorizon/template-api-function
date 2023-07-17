@@ -13,7 +13,7 @@
     "lint": "eslint src/**/*.ts"
   },
   "dependencies": {
-    "@extrahorizon/javascript-sdk": "^6.1.0",
+    "@extrahorizon/javascript-sdk": "^7.4.1",
     "axios-logger": "^2.6.0",
     "dotenv-safe": "^8.2.0"
   },

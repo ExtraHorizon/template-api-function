@@ -1,7 +1,7 @@
 {
-  "name": "projectname",
-  "description": "projectname task",
+  "name": "project-name",
+  "description": "project name API Function",
   "path": "build",
   "entryPoint": "index.handler",
-  "runtime": "nodejs14.x"
+  "runtime": "nodejs18.x"
 }

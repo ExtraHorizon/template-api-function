@@ -1,4 +1,4 @@
-# Getting started with your new task
+# Getting started with your new API Function
 
 ## Setting up npmrc
 First add the following lines to your `.npmrc` file
@@ -19,7 +19,7 @@ Edit `.env.example`, fill in all the environment variables there and save the fi
 
 ## Local testing
 
-Typically a task runs in the context of the backend. However, you can test the task locally by invoking it through `invoke.js` (or use `yarn start`). 
+Typically, an API Function runs in the context of the backend. However, you can test the API Function locally by invoking it through `invoke.js` (or use `yarn start`). 
 This allows you to do some local testing.
 
 # Scripts
