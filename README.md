@@ -1,28 +1,7 @@
-# Getting started with your new API Function
+# Template API Function
+This is a simple example of an API Function, set up to be synchronized using the [Extra Horion CLI](https://docs.extrahorizon.com/cli).
 
-## Setting up environment
+- Ensure you are logged in and connected to the correct cluster using the command `exh whoami`
+- To synchronize the API Function with Extra Horizon use the command `exh tasks sync --path=./task-config.json`
 
-You need to configure some environment variables so that the SDK can properly authenticate against the Extra Horizon cloud.
-Edit `.env.example`, fill in all the environment variables there and save the file to `.env`.
-
-## Local testing
-
-Typically, an API Function runs in the context of the backend. However, you can test the API Function locally by invoking it through `invoke.js` (or use `yarn start`). 
-This allows you to do some local testing.
-
-# Scripts
-
-## building
-
-To build the project
-
-`npm run build` or `yarn build`
-
-## running
-
-`npm run start` or `yarn start`
-
-## testing
-
-`npm run test` or `yarn test`
-
+For futher information please refer to our documentation for [API Functions](https://docs.extrahorizon.com/extrahorizon/services/automation/task-service/api-functions).

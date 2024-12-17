@@ -1,7 +1,8 @@
 {
-  "name": "project-name",
-  "description": "project name API Function",
-  "path": "build",
+  "name": "template-api-function",
+  "description": "Template API Function",
+  "path": "src",
   "entryPoint": "index.handler",
-  "runtime": "nodejs18.x"
+  "runtime": "nodejs20.x",
+  "timeLimit": 30
 }
