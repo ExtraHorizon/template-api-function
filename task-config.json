@@ -3,6 +3,7 @@
   "description": "Template API Function",
   "path": "src",
   "entryPoint": "index.handler",
-  "runtime": "nodejs20.x",
-  "timeLimit": 30
+  "runtime": "nodejs24.x",
+  "timeLimit": 30,
+  "$schema": "https://swagger.extrahorizon.com/cli/1.13.6/config-json-schemas/TaskConfig.json"
 }
