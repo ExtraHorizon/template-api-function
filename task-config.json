@@ -5,5 +5,5 @@
   "entryPoint": "index.handler",
   "runtime": "nodejs24.x",
   "timeLimit": 30,
-  "$schema": "https://swagger.extrahorizon.com/cli/1.13.6/config-json-schemas/TaskConfig.json"
+  "$schema": "https://swagger.extrahorizon.com/cli/1.13.7/config-json-schemas/TaskConfig.json"
 }
